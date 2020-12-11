@@ -29,7 +29,8 @@
     highResolution=false,
     period='1m',
     dimensions={},
-    id=null
+    id=null,
+    expression=null
   ):: {
     region: region,
     namespace: namespace,
