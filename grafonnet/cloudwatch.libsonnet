@@ -41,6 +41,7 @@
     highResolution: highResolution,
     period: period,
     dimensions: dimensions,
+    [if id != null then 'id']: id,
     [if expression != null then 'expression']: expression,
 
   },
