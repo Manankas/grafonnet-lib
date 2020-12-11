@@ -13,6 +13,7 @@
    * @param highResolution (default: `false`)
    * @param period (default: `'1m'`)
    * @param dimensions (optional)
+   * @param id (optional)
 
    * @return Panel target
    */
@@ -26,7 +27,8 @@
     alias=null,
     highResolution=false,
     period='1m',
-    dimensions={}
+    dimensions={},
+    id=null
   ):: {
     region: region,
     namespace: namespace,
@@ -37,5 +39,7 @@
     highResolution: highResolution,
     period: period,
     dimensions: dimensions,
+    [if id != null then 'id']: id,
+
   },
 }
