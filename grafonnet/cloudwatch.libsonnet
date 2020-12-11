@@ -14,6 +14,7 @@
    * @param period (default: `'1m'`)
    * @param dimensions (optional)
    * @param id (optional)
+   * @param expression (optional)
 
    * @return Panel target
    */
@@ -39,7 +40,7 @@
     highResolution: highResolution,
     period: period,
     dimensions: dimensions,
-    [if id != null then 'id']: id,
+    [if expression != null then 'expression']: expression,
 
   },
 }
