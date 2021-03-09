@@ -51,6 +51,6 @@
     [if expression != null then 'expression']: expression,
     [if hide != null then 'hide']: hide,
     [if queryMode != null then 'queryMode']: queryMode,
-    [if logGroupNames != null then 'logGroupNames']: [logGroupNames],
+    [if logGroupNames != null then 'logGroupNames']: logGroupNames,
   },
 }
