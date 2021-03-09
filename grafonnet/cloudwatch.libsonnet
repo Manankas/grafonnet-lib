@@ -5,8 +5,8 @@
    * @name cloudwatch.target
    *
    * @param region
-   * @param namespace
-   * @param metric
+   * @param namespace (optional)
+   * @param metric (optional)
    * @param datasource (optional)
    * @param statistic (default: `'Average'`)
    * @param alias (optional)
@@ -16,6 +16,8 @@
    * @param id (optional)
    * @param expression (optional)
    * @param hide (optional)
+   * @param queryMode (optional)
+   * @param logGroupNames (optional)
 
    * @return Panel target
    */
